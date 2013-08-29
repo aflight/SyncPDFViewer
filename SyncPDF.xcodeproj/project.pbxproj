@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		649E78F81728F15200A62AE6 /* bluestar.png in Resources */ = {isa = PBXBuildFile; fileRef = 649E78F61728F15200A62AE6 /* bluestar.png */; };
+		649E78F91728F15200A62AE6 /* yellowstar.png in Resources */ = {isa = PBXBuildFile; fileRef = 649E78F71728F15200A62AE6 /* yellowstar.png */; };
+		649E78FD1729080100A62AE6 /* Document-Copy-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 649E78FC1729080100A62AE6 /* Document-Copy-icon.png */; };
+		649FDDCE171F83E30073345A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649FDDCD171F83E30073345A /* UIKit.framework */; };
+		649FDDD0171F83E30073345A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649FDDCF171F83E30073345A /* Foundation.framework */; };
+		649FDDD2171F83E30073345A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 649FDDD1171F83E30073345A /* CoreGraphics.framework */; };
+		649FDDD8171F83E30073345A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 649FDDD6171F83E30073345A /* InfoPlist.strings */; };
+		649FDDDA171F83E30073345A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FDDD9171F83E30073345A /* main.m */; };
+		649FDDDE171F83E30073345A /* TabPDFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FDDDD171F83E30073345A /* TabPDFAppDelegate.m */; };
+		649FDDE0171F83E30073345A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 649FDDDF171F83E30073345A /* Default.png */; };
+		649FDDE2171F83E30073345A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 649FDDE1171F83E30073345A /* Default@2x.png */; };
+		649FDDE4171F83E30073345A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 649FDDE3171F83E30073345A /* Default-568h@2x.png */; };
+		649FDDEB171F83F40073345A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 649FDDEA171F83F40073345A /* Storyboard.storyboard */; };
+		649FDDEE171F854D0073345A /* TabPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FDDED171F854D0073345A /* TabPDFViewController.m */; };
+		649FDDF1171F89EB0073345A /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649FDDF0171F89EB0073345A /* ConfigViewController.m */; };
+		64A5814C172619D200BD73D1 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A58145172619D200BD73D1 /* ContentViewController.m */; };
+		64A5814D172619D200BD73D1 /* ModelPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A58147172619D200BD73D1 /* ModelPages.m */; };
+		64A5814E172619D200BD73D1 /* PDFDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A58149172619D200BD73D1 /* PDFDrawingView.m */; };
+		64A5814F172619D200BD73D1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A5814B172619D200BD73D1 /* RootViewController.m */; };
+		64FE3F531727699E0025C697 /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F371727699E0025C697 /* UIDeviceHardware.m */; };
+		64FE3F541727699E0025C697 /* CONNREQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F3B1727699E0025C697 /* CONNREQ.m */; };
+		64FE3F551727699E0025C697 /* CONNRES.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F3D1727699E0025C697 /* CONNRES.m */; };
+		64FE3F561727699E0025C697 /* PRESREQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F3F1727699E0025C697 /* PRESREQ.m */; };
+		64FE3F571727699E0025C697 /* PRESRES.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F411727699E0025C697 /* PRESRES.m */; };
+		64FE3F581727699E0025C697 /* SYNCREQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F431727699E0025C697 /* SYNCREQ.m */; };
+		64FE3F591727699E0025C697 /* MtgManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F451727699E0025C697 /* MtgManager.m */; };
+		64FE3F5A1727699E0025C697 /* SynchronousInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F471727699E0025C697 /* SynchronousInfo.m */; };
+		64FE3F5B1727699E0025C697 /* REQUEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F4B1727699E0025C697 /* REQUEST.m */; };
+		64FE3F5C1727699E0025C697 /* ConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F4D1727699E0025C697 /* ConnectionManager.m */; };
+		64FE3F5D1727699E0025C697 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F501727699E0025C697 /* AsyncSocket.m */; };
+		64FE3F5E1727699E0025C697 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 64FE3F521727699E0025C697 /* AsyncUdpSocket.m */; };
+		64FE3F601727702E0025C697 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64FE3F5F1727702E0025C697 /* CFNetwork.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		649E78F61728F15200A62AE6 /* bluestar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluestar.png; sourceTree = "<group>"; };
+		649E78F71728F15200A62AE6 /* yellowstar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowstar.png; sourceTree = "<group>"; };
+		649E78FC1729080100A62AE6 /* Document-Copy-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Document-Copy-icon.png"; sourceTree = "<group>"; };
+		649FDDCA171F83E30073345A /* SyncPDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncPDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		649FDDCD171F83E30073345A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		649FDDCF171F83E30073345A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		649FDDD1171F83E30073345A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		649FDDD5171F83E30073345A /* SyncPDF-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SyncPDF-Info.plist"; sourceTree = "<group>"; };
+		649FDDD7171F83E30073345A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		649FDDD9171F83E30073345A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		649FDDDB171F83E30073345A /* SyncPDF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SyncPDF-Prefix.pch"; sourceTree = "<group>"; };
+		649FDDDC171F83E30073345A /* TabPDFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabPDFAppDelegate.h; sourceTree = "<group>"; };
+		649FDDDD171F83E30073345A /* TabPDFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabPDFAppDelegate.m; sourceTree = "<group>"; };
+		649FDDDF171F83E30073345A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		649FDDE1171F83E30073345A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		649FDDE3171F83E30073345A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		649FDDEA171F83F40073345A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		649FDDEC171F854D0073345A /* TabPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabPDFViewController.h; sourceTree = "<group>"; };
+		649FDDED171F854D0073345A /* TabPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabPDFViewController.m; sourceTree = "<group>"; };
+		649FDDEF171F89EB0073345A /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		649FDDF0171F89EB0073345A /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		64A58144172619D200BD73D1 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		64A58145172619D200BD73D1 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		64A58146172619D200BD73D1 /* ModelPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelPages.h; sourceTree = "<group>"; };
+		64A58147172619D200BD73D1 /* ModelPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelPages.m; sourceTree = "<group>"; };
+		64A58148172619D200BD73D1 /* PDFDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFDrawingView.h; sourceTree = "<group>"; };
+		64A58149172619D200BD73D1 /* PDFDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFDrawingView.m; sourceTree = "<group>"; };
+		64A5814A172619D200BD73D1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		64A5814B172619D200BD73D1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		64FE3F361727699E0025C697 /* UIDeviceHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceHardware.h; sourceTree = "<group>"; };
+		64FE3F371727699E0025C697 /* UIDeviceHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceHardware.m; sourceTree = "<group>"; };
+		64FE3F3A1727699E0025C697 /* CONNREQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CONNREQ.h; sourceTree = "<group>"; };
+		64FE3F3B1727699E0025C697 /* CONNREQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CONNREQ.m; sourceTree = "<group>"; };
+		64FE3F3C1727699E0025C697 /* CONNRES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CONNRES.h; sourceTree = "<group>"; };
+		64FE3F3D1727699E0025C697 /* CONNRES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CONNRES.m; sourceTree = "<group>"; };
+		64FE3F3E1727699E0025C697 /* PRESREQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRESREQ.h; sourceTree = "<group>"; };
+		64FE3F3F1727699E0025C697 /* PRESREQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRESREQ.m; sourceTree = "<group>"; };
+		64FE3F401727699E0025C697 /* PRESRES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRESRES.h; sourceTree = "<group>"; };
+		64FE3F411727699E0025C697 /* PRESRES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRESRES.m; sourceTree = "<group>"; };
+		64FE3F421727699E0025C697 /* SYNCREQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNCREQ.h; sourceTree = "<group>"; };
+		64FE3F431727699E0025C697 /* SYNCREQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNCREQ.m; sourceTree = "<group>"; };
+		64FE3F441727699E0025C697 /* MtgManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtgManager.h; sourceTree = "<group>"; };
+		64FE3F451727699E0025C697 /* MtgManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MtgManager.m; sourceTree = "<group>"; };
+		64FE3F461727699E0025C697 /* SynchronousInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronousInfo.h; sourceTree = "<group>"; };
+		64FE3F471727699E0025C697 /* SynchronousInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronousInfo.m; sourceTree = "<group>"; };
+		64FE3F4A1727699E0025C697 /* REQUEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REQUEST.h; sourceTree = "<group>"; };
+		64FE3F4B1727699E0025C697 /* REQUEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REQUEST.m; sourceTree = "<group>"; };
+		64FE3F4C1727699E0025C697 /* ConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionManager.h; sourceTree = "<group>"; };
+		64FE3F4D1727699E0025C697 /* ConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionManager.m; sourceTree = "<group>"; };
+		64FE3F4F1727699E0025C697 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		64FE3F501727699E0025C697 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		64FE3F511727699E0025C697 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		64FE3F521727699E0025C697 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+		64FE3F5F1727702E0025C697 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649FDDC7171F83E30073345A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FE3F601727702E0025C697 /* CFNetwork.framework in Frameworks */,
+				649FDDCE171F83E30073345A /* UIKit.framework in Frameworks */,
+				649FDDD0171F83E30073345A /* Foundation.framework in Frameworks */,
+				649FDDD2171F83E30073345A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		649FDDC1171F83E30073345A = {
+			isa = PBXGroup;
+			children = (
+				649E78FC1729080100A62AE6 /* Document-Copy-icon.png */,
+				649FDDD3171F83E30073345A /* TableViewPDF */,
+				649FDDCC171F83E30073345A /* Frameworks */,
+				649FDDCB171F83E30073345A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		649FDDCB171F83E30073345A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649FDDCA171F83E30073345A /* SyncPDF.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649FDDCC171F83E30073345A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64FE3F5F1727702E0025C697 /* CFNetwork.framework */,
+				649FDDCD171F83E30073345A /* UIKit.framework */,
+				649FDDCF171F83E30073345A /* Foundation.framework */,
+				649FDDD1171F83E30073345A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		649FDDD3171F83E30073345A /* TableViewPDF */ = {
+			isa = PBXGroup;
+			children = (
+				64FE3F341727697D0025C697 /* RuanClasses */,
+				64A58143172619B600BD73D1 /* New */,
+				649FDDEA171F83F40073345A /* Storyboard.storyboard */,
+				649FDDDC171F83E30073345A /* TabPDFAppDelegate.h */,
+				649FDDEF171F89EB0073345A /* ConfigViewController.h */,
+				649FDDF0171F89EB0073345A /* ConfigViewController.m */,
+				649FDDEC171F854D0073345A /* TabPDFViewController.h */,
+				649FDDED171F854D0073345A /* TabPDFViewController.m */,
+				649FDDDD171F83E30073345A /* TabPDFAppDelegate.m */,
+				649FDDD4171F83E30073345A /* Supporting Files */,
+			);
+			path = TableViewPDF;
+			sourceTree = "<group>";
+		};
+		649FDDD4171F83E30073345A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				649FDDD5171F83E30073345A /* SyncPDF-Info.plist */,
+				649FDDD6171F83E30073345A /* InfoPlist.strings */,
+				649FDDD9171F83E30073345A /* main.m */,
+				649FDDDB171F83E30073345A /* SyncPDF-Prefix.pch */,
+				649FDDDF171F83E30073345A /* Default.png */,
+				649FDDE1171F83E30073345A /* Default@2x.png */,
+				649FDDE3171F83E30073345A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64A58143172619B600BD73D1 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				64A58144172619D200BD73D1 /* ContentViewController.h */,
+				64A58145172619D200BD73D1 /* ContentViewController.m */,
+				64A58146172619D200BD73D1 /* ModelPages.h */,
+				64A58147172619D200BD73D1 /* ModelPages.m */,
+				64A58148172619D200BD73D1 /* PDFDrawingView.h */,
+				64A58149172619D200BD73D1 /* PDFDrawingView.m */,
+				64A5814A172619D200BD73D1 /* RootViewController.h */,
+				64A5814B172619D200BD73D1 /* RootViewController.m */,
+				649E78F61728F15200A62AE6 /* bluestar.png */,
+				649E78F71728F15200A62AE6 /* yellowstar.png */,
+			);
+			name = New;
+			sourceTree = "<group>";
+		};
+		64FE3F341727697D0025C697 /* RuanClasses */ = {
+			isa = PBXGroup;
+			children = (
+				64FE3F351727699E0025C697 /* Common */,
+				64FE3F381727699E0025C697 /* Mtg */,
+				64FE3F481727699E0025C697 /* NET */,
+			);
+			name = RuanClasses;
+			sourceTree = "<group>";
+		};
+		64FE3F351727699E0025C697 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				64FE3F361727699E0025C697 /* UIDeviceHardware.h */,
+				64FE3F371727699E0025C697 /* UIDeviceHardware.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		64FE3F381727699E0025C697 /* Mtg */ = {
+			isa = PBXGroup;
+			children = (
+				64FE3F391727699E0025C697 /* Command */,
+				64FE3F441727699E0025C697 /* MtgManager.h */,
+				64FE3F451727699E0025C697 /* MtgManager.m */,
+				64FE3F461727699E0025C697 /* SynchronousInfo.h */,
+				64FE3F471727699E0025C697 /* SynchronousInfo.m */,
+			);
+			path = Mtg;
+			sourceTree = "<group>";
+		};
+		64FE3F391727699E0025C697 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				64FE3F3A1727699E0025C697 /* CONNREQ.h */,
+				64FE3F3B1727699E0025C697 /* CONNREQ.m */,
+				64FE3F3C1727699E0025C697 /* CONNRES.h */,
+				64FE3F3D1727699E0025C697 /* CONNRES.m */,
+				64FE3F3E1727699E0025C697 /* PRESREQ.h */,
+				64FE3F3F1727699E0025C697 /* PRESREQ.m */,
+				64FE3F401727699E0025C697 /* PRESRES.h */,
+				64FE3F411727699E0025C697 /* PRESRES.m */,
+				64FE3F421727699E0025C697 /* SYNCREQ.h */,
+				64FE3F431727699E0025C697 /* SYNCREQ.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		64FE3F481727699E0025C697 /* NET */ = {
+			isa = PBXGroup;
+			children = (
+				64FE3F491727699E0025C697 /* Command */,
+				64FE3F4C1727699E0025C697 /* ConnectionManager.h */,
+				64FE3F4D1727699E0025C697 /* ConnectionManager.m */,
+				64FE3F4E1727699E0025C697 /* Lib */,
+			);
+			path = NET;
+			sourceTree = "<group>";
+		};
+		64FE3F491727699E0025C697 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				64FE3F4A1727699E0025C697 /* REQUEST.h */,
+				64FE3F4B1727699E0025C697 /* REQUEST.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		64FE3F4E1727699E0025C697 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				64FE3F4F1727699E0025C697 /* AsyncSocket.h */,
+				64FE3F501727699E0025C697 /* AsyncSocket.m */,
+				64FE3F511727699E0025C697 /* AsyncUdpSocket.h */,
+				64FE3F521727699E0025C697 /* AsyncUdpSocket.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		649FDDC9171F83E30073345A /* SyncPDF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 649FDDE7171F83E30073345A /* Build configuration list for PBXNativeTarget "SyncPDF" */;
+			buildPhases = (
+				649FDDC6171F83E30073345A /* Sources */,
+				649FDDC7171F83E30073345A /* Frameworks */,
+				649FDDC8171F83E30073345A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncPDF;
+			productName = TableViewPDF;
+			productReference = 649FDDCA171F83E30073345A /* SyncPDF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		649FDDC2171F83E30073345A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TabPDF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Ziling;
+			};
+			buildConfigurationList = 649FDDC5171F83E30073345A /* Build configuration list for PBXProject "SyncPDF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 649FDDC1171F83E30073345A;
+			productRefGroup = 649FDDCB171F83E30073345A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				649FDDC9171F83E30073345A /* SyncPDF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		649FDDC8171F83E30073345A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649FDDD8171F83E30073345A /* InfoPlist.strings in Resources */,
+				649FDDE0171F83E30073345A /* Default.png in Resources */,
+				649FDDE2171F83E30073345A /* Default@2x.png in Resources */,
+				649FDDE4171F83E30073345A /* Default-568h@2x.png in Resources */,
+				649FDDEB171F83F40073345A /* Storyboard.storyboard in Resources */,
+				649E78F81728F15200A62AE6 /* bluestar.png in Resources */,
+				649E78F91728F15200A62AE6 /* yellowstar.png in Resources */,
+				649E78FD1729080100A62AE6 /* Document-Copy-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		649FDDC6171F83E30073345A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649FDDDA171F83E30073345A /* main.m in Sources */,
+				649FDDDE171F83E30073345A /* TabPDFAppDelegate.m in Sources */,
+				649FDDEE171F854D0073345A /* TabPDFViewController.m in Sources */,
+				649FDDF1171F89EB0073345A /* ConfigViewController.m in Sources */,
+				64A5814C172619D200BD73D1 /* ContentViewController.m in Sources */,
+				64A5814D172619D200BD73D1 /* ModelPages.m in Sources */,
+				64A5814E172619D200BD73D1 /* PDFDrawingView.m in Sources */,
+				64A5814F172619D200BD73D1 /* RootViewController.m in Sources */,
+				64FE3F531727699E0025C697 /* UIDeviceHardware.m in Sources */,
+				64FE3F541727699E0025C697 /* CONNREQ.m in Sources */,
+				64FE3F551727699E0025C697 /* CONNRES.m in Sources */,
+				64FE3F561727699E0025C697 /* PRESREQ.m in Sources */,
+				64FE3F571727699E0025C697 /* PRESRES.m in Sources */,
+				64FE3F581727699E0025C697 /* SYNCREQ.m in Sources */,
+				64FE3F591727699E0025C697 /* MtgManager.m in Sources */,
+				64FE3F5A1727699E0025C697 /* SynchronousInfo.m in Sources */,
+				64FE3F5B1727699E0025C697 /* REQUEST.m in Sources */,
+				64FE3F5C1727699E0025C697 /* ConnectionManager.m in Sources */,
+				64FE3F5D1727699E0025C697 /* AsyncSocket.m in Sources */,
+				64FE3F5E1727699E0025C697 /* AsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		649FDDD6171F83E30073345A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649FDDD7171F83E30073345A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		649FDDE5171F83E30073345A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		649FDDE6171F83E30073345A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		649FDDE8171F83E30073345A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewPDF/SyncPDF-Prefix.pch";
+				INFOPLIST_FILE = "TableViewPDF/SyncPDF-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = SyncPDF;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		649FDDE9171F83E30073345A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewPDF/SyncPDF-Prefix.pch";
+				INFOPLIST_FILE = "TableViewPDF/SyncPDF-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = SyncPDF;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		649FDDC5171F83E30073345A /* Build configuration list for PBXProject "SyncPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649FDDE5171F83E30073345A /* Debug */,
+				649FDDE6171F83E30073345A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		649FDDE7171F83E30073345A /* Build configuration list for PBXNativeTarget "SyncPDF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649FDDE8171F83E30073345A /* Debug */,
+				649FDDE9171F83E30073345A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 649FDDC2171F83E30073345A /* Project object */;
+}

@@ -22,13 +22,13 @@ All iPads must open the same PDF file.
 
 Others can press the "Sync" button so that they can see the same content  with host.
 
-![image](https://github.com/aflight/SyncPDFViewer/raw/master/screenshots/PDFView.png)
+![image](https://github.com/aflight/SyncPDFViewer/raw/master/screenshots/PDFVIew.png)
 
 
 4.When the host changes the page,others will get the sync info to change their pages same with host's.
 
 
-![image](https://github.com/aflight/SyncPDFViewer/raw/master/screenshots/PageTuring.png)
+![image](https://github.com/aflight/SyncPDFViewer/raw/master/screenshots/PageTurning.png)
 
 
 
